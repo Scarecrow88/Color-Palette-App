@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+    min-height: 80vh;
+}
+#colorbox {
+    width: 100px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+section {
+    margin: auto;
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    width: max-content;
+}
+input[type="radio"] {
+    appearance: none;
+    width: 1.1rem;
+    height: 1.1rem;
+    padding: 1px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+input[type="radio"]:checked {
+    background-color: #D4D4D4;
+    transition: 0.2s;
+}
+.formbox {
+    background-color: darkgray;
+    font-family: 'Segoe UI Light';
+    font-size: 20px;
+    padding: 25px 40px;
+    margin: 30px auto;
+    width: 40%;
+    height: 200px;
+    max-height: 1000px;
+    overflow: auto;
+    border-radius: 10px;
+    text-align: center;
+    /* scrollbar-color: #a4133c #ff4d6d; */
+}
+.formbox::-webkit-scrollbar {
+    width: 10px;
+}
+.formbox::-webkit-scrollbar-track {
+    background-color: #D1B3C4;
+    border-radius: 5px;
+}
+.formbox::-webkit-scrollbar-thumb {
+    background-color: #735D78;
+    border-radius: 5px;
+}
+.formbutton {
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #F7D1CD;
+    font-family: 'Segoe UI Light';
+    font-size: 16px;
+    color: #735D78;
+    border: none;
+    border-radius: 10px;
+}
+.formbutton:hover {
+    background-color: #735D78;
+    transition: 0.3s;
+    color: #F7D1CD;
+    cursor: pointer;
+}
+.codesecboxoff {
+    display: none;
+}
+.codesecbox {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.codesecbox div {
+    padding: 10px;
+    border: gray 2px solid;
+    background-color: #D4D4D4;
+}
+@media screen and (max-width: 966px) {
+    main {
+        min-height: 55vh;
+    }
+}
+@media screen and (max-width: 768px){
+    .codesecbox div {
+        width: 100px;
+        padding: 5px;
+    }
+    .formbox {
+        width: 80%;
+        padding: 25px 0;
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width: 541px) {
+    main {
+        min-height: 50vh;
+    }
+    .codesecbox {
+        font-size: 12px;
+    }
+    .codesecbox div {
+        width: 60px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 431px) {
+    .formbox {
+        width: 80%;
+        padding: 25px 0;
+        overflow-x: hidden;
+    }
+    .formbutton {
+        width: 140px;
+    }
+    main {
+        min-height: 70vh;
+    }
+    .radiob {
+        width: 100%;
+    }
+    #colorbox {
+        width: 60px;
+        height: 200px;
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+}
+@media screen and (max-width: 320px) {
+    .codesecbox div {
+        width: 50px;
+        padding: 5px;
+    }
+    #colorbox {
+        width: 50px;
+    }
+}
