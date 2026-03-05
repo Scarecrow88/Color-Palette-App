@@ -7,10 +7,10 @@
     font-family: 'Segoe UI Light';
     src: url('../font/segoe-ui-light.ttf');
 }
-body {
+.bodybox {
     padding-top: 90px;
     font-family: 'Segoe UI Light';
-    background-image: url(../img/Wallpaper13.jpg);
+    background-image: url(../img/office-wallpaper-1920x1280.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
