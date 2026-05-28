@@ -7,7 +7,7 @@
 - Recargar la página para generar nuevas combinaciones
 
 ## Tecnologías utilizadas
-- **Frontend:** JavaScript, HTML, CSS
+- **Frontend:** React.js, JavaScript, HTML, CSS
 - **Almacenamiento de datos:** JSON (colors.json)
 
 ## Arquitectura
